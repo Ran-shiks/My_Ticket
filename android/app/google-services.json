@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "204559649171",
+    "firebase_url": "https://my-ticket-d9d98-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "my-ticket-d9d98",
+    "storage_bucket": "my-ticket-d9d98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204559649171:android:42b5450ade5c801fc0c066",
+        "android_client_info": {
+          "package_name": "it.unisannio.cp.my_ticket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204559649171-3glau75qqj09dat7k5tr80cdtk2gj4v1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.unisannio.cp.my_ticket",
+            "certificate_hash": "69b745ccd0d58294a4885126e54124dcee8bd3a0"
+          }
+        },
+        {
+          "client_id": "204559649171-8kclltn8bfr2iq5k9mjevue6qvl6pg8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTfmID-ZcYWEfSOQ9XqGe21TAbJh8AHn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204559649171-8kclltn8bfr2iq5k9mjevue6qvl6pg8m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "204559649171-bmo4f2agpcsgbpna7jupm6kefhfq5lc3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.unisannio.cp.myTicket"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

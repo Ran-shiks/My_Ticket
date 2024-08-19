@@ -1,0 +1,52 @@
+{
+  "app_name": "MyTycket",
+
+  "action_login": "Accedi",
+  "action_sign_up": "Registrati",
+
+  "title_sign_up" : "Registrazione",
+  "dialog_wrong_signUp_title": "oh no!",
+
+
+
+  "action_open_settings": "Impostazioni",
+  "action_start_buying_tickets" : "Partecipa ai tuoi eventi preferiti",
+
+  "dialog_wrong_login_title": "Login Errato",
+  "dialog_wrong_login_message": "Credenziali non giuste",
+  "action_ok": "OK",
+
+  "label_or": "o",
+  "label_email": "Email",
+  "label_password": "Password",
+  "label_name":"Nome",
+  "label_surname":"Cognome",
+  "label_calendar":"Imposta la Data",
+
+  "label_no_connection_msg1": "Oh no!",
+  "label_no_connection_msg2": "Nessuna Connessione Disponibile",
+
+  "title_sign_in": "Accedi",
+
+  "welcome_header_1": "MyTicket",
+  "welcome_header_2": "Veloce",
+  "welcome_header_3": "Gratuita",
+  "welcome_header_4": "Potente",
+  "welcome_header_5": "Sicura",
+  "welcome_header_6": "Basata su Cloud",
+
+  "welcome_description_1": "L'app per accedere ai migliori eventi",
+  "welcome_description_2": "Acquista i biglietti in pochi secondi",
+  "welcome_description_3": "Tieniti aggiornato sugli eventi senza registrazione",
+  "welcome_description_4": "Tutti i migliori eventi sempre a portata di mano",
+  "welcome_description_5": "I tuoi biglietti sempre con te",
+  "welcome_description_6": "Ora anche su Cloud",
+
+  "text_search": "Cerca",
+
+  "admin_user_list" : "Lista Utenti",
+  "admin_creation_event": "Crea evento",
+  "admin_creation_room" : "Crea sala"
+
+
+}

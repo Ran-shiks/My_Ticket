@@ -1,0 +1,52 @@
+{
+  "app_name": "MyTycket",
+
+  "action_login": "Login",
+  "action_sign_up": "Sign Up",
+
+
+  "title_sign_up" : "Sign Up",
+  "dialog_wrong_signUp_title": "oh no!",
+
+  "dialog_wrong_login_title": "Login gone Wrong",
+  "dialog_wrong_login_message": "Credentials are Wrong",
+
+  "action_ok": "OK",
+  "action_open_settings": "Open Settings",
+  "action_start_buying_tickets" : "Join your favorites events",
+
+
+
+  "label_or": "or",
+  "label_email": "Email",
+  "label_password": "Password",
+  "label_name":"Name",
+  "label_surname":"Surname",
+  "label_calendar":"Enter BirthDate",
+
+
+  "label_no_connection_msg1": "Oh no!",
+  "label_no_connection_msg2": "No Connection Available",
+
+  "title_sign_in": "Sign In",
+
+  "welcome_header_1": "MyTicket",
+  "welcome_header_2": "Fast",
+  "welcome_header_3": "Free",
+  "welcome_header_4": "Powerfull",
+  "welcome_header_5": "Secure",
+  "welcome_header_6": "Cloud-based",
+
+  "welcome_description_1": "The app to access your events",
+  "welcome_description_2": "Buy Tickets in few seconds",
+  "welcome_description_3": "Keep up to date with events without registration",
+  "welcome_description_4": "All the best events always at your fingertips",
+  "welcome_description_5": "Your tickets always with you",
+  "welcome_description_6": "Now on Cloud",
+
+  "text_search": "Search",
+
+  "admin_user_list" : "User list",
+  "admin_creation_event": "Creation event",
+  "admin_creation_room" : "Creation room"
+}
