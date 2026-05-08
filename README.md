@@ -1,16 +1,36 @@
-# my_ticket
+# My_ticket
 
-A new Flutter project.
+## Descrizione 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Descrizione informale in linguaggio naturale dell’elaborato: MyTicket  
 
-A few resources to get you started if this is your first Flutter project:
+Permette a chi gestisce un’attività rivolta al pubblico di emettere biglietti per una sala (**Location**).  
+L’amministratore del sistema e unico ed una volta registrato può svolgere tutti i compiti di gestione necessari al funzionamento dello stesso.  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Un compito fondamentale è quello di configurare le sale disponibili fornendo al sistema la struttura di tali sale in termini dei blocchi di posti in esse disponibili specificandone le dimensioni. I blocchi e i posti hanno id univoci.  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In questo modo ogni sala aggiunta al sistema potrà essere utilizzata per generare biglietti di eventi che avvengono in date ben precise.  
+
+Ad ogni sala aggiunta viene associato un calendario degli eventi che si svolgeranno in quella sala e ad ogni evento è associato un carnet di biglietti che è possibile vendere per quell’evento.  
+
+L’amministratore può assegnare un prezzo ai biglietti della sala in base ai blocchi di appartenenza e di vendere i biglietti singolarmente o a gruppi.  
+
+Un utente visitatore può accedere alla programmazione degli eventi e relativi dettagli (per ogni evento può conoscere tutti i dettagli tra cui la sala in cui si svolge, la descrizione e i posti liberi).  
+
+L’utente registrato invece (con e-mail e password) può scegliere un posto tra quelli disponibili e comprare il relativo biglietto.  
+
+Ogni utente registrato può anche comprare un biglietto di gruppo composto da massimo 5 posti necessariamente consecutivi ma deve indicare la e-mail di registrazione dei membri del gruppo (per limitare il secondary ticketing).
+
+Se l’evento è a pagamento e richiede un biglietto, l’utente registrato può acquistarlo pagando con paypal o carta di credito.
+Per semplicità si simuli un pagamento che ha sempre successo.
+
+Per gli \textbf{eventi gratuiti} il biglietto è emesso in ogni caso ed il check-in viene comunque effettuato, ma la transazione economica non avviene.
+Questo implica che anche per eventi gratuiti, solo gli utenti registrati possono acquisire un biglietto valido.
+
+MyTicket inoltre oltre a consentire di generare i biglietti per l’evento, permette al \textbf{personale} di effettuare il check-in dei partecipanti eseguendone la \textbf{scansione dei QR} code dei biglietti.
+
+L’amministratore può ottenere \textbf{informazioni} su quanti  biglietti sono stati venduti e utilizzati per accedere alla sala.
+L’amministratore può annullare l’evento in qualsiasi momento ed in questo caso è tenuto ad effettuare il riaccredito dei versamenti (anche in questo caso simulare sempre il successo dell'operazione).
+
+La componente client può essere sviluppata per piattaforma Android o Flutter; per la componente server si può optare per FireBase, Vert.X o Spring.
